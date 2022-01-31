@@ -6,13 +6,29 @@
         align-items: center;
         justify-content: center;
         .card {
-            padding: 1rem 2rem;
+            padding: 1rem 1.6rem;
             &:first-child {
                 border-radius:10px 0 0 10px;
             }
             &:last-child {
                 border-radius: 0 10px 10px 0;
             }
+        }
+    }
+    footer {
+        position: fixed;
+        bottom: 0;
+        left: 50%;
+        font-family: 'Lexend Deca';
+        color: #000;
+        span {
+            font-weight: bold;
+        }
+        a {
+            color: #000;
+        }
+        a:hover{
+            color: map-get($colors, 'bright-orange')
         }
     }
 }

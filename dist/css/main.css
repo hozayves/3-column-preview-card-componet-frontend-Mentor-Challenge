@@ -92,6 +92,26 @@ section {
   border-radius: 0 0 10px 10px;
 }
 
+footer {
+  position: fixed;
+  bottom: 0;
+  left: 25%;
+  font-family: 'Lexend Deca';
+  color: #fff;
+}
+
+footer span {
+  font-weight: bold;
+}
+
+footer a {
+  color: #fff;
+}
+
+footer a:hover {
+  color: #e38826;
+}
+
 @media screen and (min-width: 865px) {
   section {
     -ms-grid-columns: (22%)[3];
@@ -105,13 +125,29 @@ section {
             justify-content: center;
   }
   section .card {
-    padding: 1rem 2rem;
+    padding: 1rem 1.6rem;
   }
   section .card:first-child {
     border-radius: 10px 0 0 10px;
   }
   section .card:last-child {
     border-radius: 0 10px 10px 0;
+  }
+  footer {
+    position: fixed;
+    bottom: 0;
+    left: 50%;
+    font-family: 'Lexend Deca';
+    color: #000;
+  }
+  footer span {
+    font-weight: bold;
+  }
+  footer a {
+    color: #000;
+  }
+  footer a:hover {
+    color: #e38826;
   }
 }
 /*# sourceMappingURL=main.css.map */

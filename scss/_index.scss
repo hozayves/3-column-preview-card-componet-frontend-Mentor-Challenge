@@ -67,3 +67,20 @@ section {
 .card:last-child {
     border-radius: 0 0 10px 10px;
 }
+
+footer {
+    position: fixed;
+    bottom: 0;
+    left: 25%;
+    font-family: 'Lexend Deca';
+    color: #fff;
+    span {
+        font-weight: bold;
+    }
+    a {
+        color: #fff;
+    }
+    a:hover{
+        color: map-get($colors, 'bright-orange')
+    }
+}
