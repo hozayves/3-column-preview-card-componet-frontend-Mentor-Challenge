@@ -1,0 +1,18 @@
+
+@include ipad {
+    section {
+        grid-template-columns: repeat(3, 22%);
+        grid-auto-rows: auto;
+        align-items: center;
+        justify-content: center;
+        .card {
+            padding: 1rem 2rem;
+            &:first-child {
+                border-radius:10px 0 0 10px;
+            }
+            &:last-child {
+                border-radius: 0 10px 10px 0;
+            }
+        }
+    }
+}

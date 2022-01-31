@@ -12,4 +12,11 @@ $colors: (
     'very-dark-cyan' : hsl(179, 100%, 13%),
     'transparent-white': hsla(0, 0%, 100%, 0.75), //paragraph
     'very-light-gray' : hsl(0, 0%, 95%), // background, heading, buttons
-)
+);
+
+// Media queries
+@mixin ipad {
+    @media screen and (min-width: 865px) {
+        @content;
+    }
+}
