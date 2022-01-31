@@ -95,13 +95,14 @@ section {
 footer {
   position: fixed;
   bottom: 0;
-  left: 25%;
+  left: 0;
   font-family: 'Lexend Deca';
   color: #fff;
-}
-
-footer span {
-  font-weight: bold;
+  font-size: 0.6rem;
+  text-align: center;
+  width: 100%;
+  border: 1px solid red span;
+  border-font-weight: bold;
 }
 
 footer a {
@@ -136,9 +137,11 @@ footer a:hover {
   footer {
     position: fixed;
     bottom: 0;
-    left: 50%;
+    left: 0;
     font-family: 'Lexend Deca';
     color: #000;
+    font-size: 1em;
+    padding: 1rem;
   }
   footer span {
     font-weight: bold;

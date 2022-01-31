@@ -71,9 +71,13 @@ section {
 footer {
     position: fixed;
     bottom: 0;
-    left: 25%;
+    left: 0;
     font-family: 'Lexend Deca';
     color: #fff;
+    font-size: 0.6rem;
+    text-align: center;
+    width: 100%;
+    border: 1px solid red
     span {
         font-weight: bold;
     }
